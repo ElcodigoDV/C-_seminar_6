@@ -17,9 +17,6 @@ float [] GetCoordinate (string text)
 {
 	Console.WriteLine(text);
     float [] result = Console.ReadLine().Split(",").Select(float.Parse).ToArray();
-	// string row = Console.ReadLine().Split(" ");
-	// float [] array = row.String.ToArray();
-	//int [] array = new int [4];
 	return result;
 }
 
