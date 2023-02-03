@@ -18,10 +18,7 @@ int [] GetArray(string text)
 {
 	Console.WriteLine(text);
 	int [] result = Console.ReadLine().Split(",").Select(int.Parse).ToArray();
-	// string str1 = String.Split(" ", str);
-	// string num =Int32.Parse(str1);
-	// int size = num.Lenght;
-	return result;	//должен вернуть массив
+	return result;
 }
 
 //Запрос чисел
